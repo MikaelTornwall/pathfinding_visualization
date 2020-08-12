@@ -1,0 +1,23 @@
+<!Doctype html>
+<html lang="en">
+    <head>
+        <meta name="Mikael Törnwall" content="A* Visualization">
+        <meta charset="utf-8">
+        <title>A* Visualization</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+    </head>
+    <body>
+        <div class="container">
+            <canvas id="grid" width="600" height="600"></canvas>            
+            <div class="controls">
+              <span>
+              <input type="range" min="10" max="50" value="30" step="5" id="slider" class="">
+              <span id="slider-value"></span>
+              </span>
+              <button type="button" id="run" class="btn btn-run">Run</button>
+            </div>
+          </div>
+    </body>
+    <script src="js/script.js"></script>
+</html>
